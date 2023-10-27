@@ -780,7 +780,7 @@ form textarea {
     margin: 231px 20px 214px 21px;
 }
 
-@media(max-width:1200px) {.container
+div
 {
-    width: 980px;
-} }
+    width: clamp(min(10vw,20rem),300px , max(90vw,55rem));
+}
