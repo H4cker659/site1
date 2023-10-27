@@ -784,3 +784,21 @@ div
 {
     width: clamp(min(10vw,30%),400px, max(100%,55rem));
 }
+/* Стили для экранов шириной до 600px */
+div {
+    width: clamp(10vw, 30%, 400px);
+}
+
+/* Стили для экранов шириной более 600px и до 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+    div {
+        width: clamp(20vw, 40%, 600px);
+    }
+}
+
+/* Стили для экранов шириной более 1200px */
+@media (min-width: 1200px) {
+    div {
+        width: clamp(30vw, 60%, 800px);
+    }
+}
