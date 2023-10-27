@@ -782,5 +782,5 @@ form textarea {
 
 div
 {
-    width: clamp(min(10vw,20rem),300px , max(90vw,55rem));
+    width: clamp(min(10vw,30%),300px, max(100%,55rem));
 }
