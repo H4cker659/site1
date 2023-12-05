@@ -1,10 +1,20 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-body
+.top_menu
 {
-    background: linear-gradient(108.13deg, #320000 1%, #0F0323 37.66%, #322204 72.27%, #000230 98.74%);
-
+    width: 1170px;
+    height: 38px;
+    display: flex;
+    font-family: 'Inter';
+}
+.nav
+{
+    width: 338px;height: 26px;
+    display: flex;
+}
+.nav h1
+{
+    margin-left: 20px;
 }
