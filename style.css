@@ -2,19 +2,65 @@
     margin: 0px;
     padding: 0px;
 }
-.top_menu
+html
 {
+    width: 1366px;
+}
+
+.top_menu {
     width: 1170px;
     height: 38px;
     display: flex;
     font-family: 'Inter';
+    padding: 26px 98px 26px 98px;
 }
-.nav
-{
-    width: 338px;height: 26px;
+
+.themebau {
+    margin: 0px 594px 8px 0px;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.nav {
+    width: 338px;
+    height: 26px;
     display: flex;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word
 }
-.nav h1
-{
+
+.nav h1 {
     margin-left: 20px;
+}
+
+.container1 {
+    width: 1366px;
+    height: 570px;
+}
+
+.social_header {
+    width: 70px;
+    height: 15px;
+    display: flex;
+    margin: 11px 0px 12px 60px;
+}
+
+.image_calibri {
+    margin: 0px 33px 0px 33px;
+    width: 1170px;
+    height: 580px;
+}
+
+.image_calibri img {
+    width: 1170px;
+    height: 580px;
+    margin: 0px 58px;
 }
