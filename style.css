@@ -2,10 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-html
-{
-    width: 1366px;
-}
 
 .top_menu {
     width: 1170px;
@@ -16,7 +12,7 @@ html
 }
 
 .themebau {
-    margin: 0px 594px 8px 0px;
+    margin: 0px 585px 8px 0px;
     color: white;
     font-size: 20px;
     font-family: Inter;
@@ -30,14 +26,9 @@ html
     height: 26px;
     display: flex;
     color: white;
-    font-size: 16px;
-    font-family: Inter;
-    font-weight: 500;
-    line-height: 26px;
-    word-wrap: break-word
 }
 
-.nav h1 {
+.nav div {
     margin-left: 20px;
 }
 
@@ -54,13 +45,64 @@ html
 }
 
 .image_calibri {
-    margin: 0px 33px 0px 33px;
+    margin: 0px 33px 0px 98px;
     width: 1170px;
     height: 580px;
+    background: url(img/calibri.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.image_calibri img {
-    width: 1170px;
-    height: 580px;
-    margin: 0px 58px;
+.calibriline {
+    width: 70px;
+    height: 1px;
+    padding: 175px 900px 36px 200px;
+}
+
+.creativepr {
+    margin-left:200px ;
+    color: white;
+    text-transform: capitalize;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+    width: 516px;
+    height: 160px;
+}
+
+.onetothree {
+    display: flex;
+    margin: 147px 6px 50px 200px;
+    color: white;
+    font-family: 'Inter';
+    width: 88px;
+    height: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.onetothree img {
+    width: 20px;
+    height: 1px;
+    padding-top: 9px;
+}
+
+.onetothree p {
+    width: 19px;
+    height: 12px;
+}
+#circleimg
+{
+    padding-left: 614px;
+    width: 90px;
+    height: 90px;
+}
+.asd
+{
+    margin-left:636px ;
+    display: flex;
 }
